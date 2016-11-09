@@ -12,6 +12,7 @@
     "body-parser": "^1.15.2",
     "consolidate": "^0.14.1",
     "ejs": "^2.5.2",
+    "ejs-locals": "^1.0.2",
     "express": "^4.14.0",
     "request": "^2.78.0"
   }
