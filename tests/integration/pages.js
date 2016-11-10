@@ -36,4 +36,17 @@ describe('Pages', function() {
         .expect(/About page/, done)
     });
   });
+
+  describe('GET /add/news', function() {
+    it('should return status code 200', function(done) {
+      request(app)
+        .get('/add/news')
+        .expect(200, done)
+    });
+    it('should contain text "Add News"', function(done) {
+      request(app)
+        .get('/add/news')
+        .expect(/adding new post/, done)
+    });
+  });
 });

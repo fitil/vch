@@ -11,3 +11,10 @@ exports.about = function (req, res) {
     message: 'This is the "about" action of "pages" controller'
   });
 };
+
+exports.newsadd = function (req, res) {
+  res.render('pages/addnews', {
+    title: 'Add News',
+    message: 'adding new post'
+  });
+};
