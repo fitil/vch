@@ -2,18 +2,27 @@
   "name": "vch",
   "version": "1.0.0",
   "description": "News Site Engine",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "2.3.0",
+    "bluebird": "3.4.6",
     "body-parser": "^1.15.2",
-    "consolidate": "^0.14.1",
-    "ejs": "^2.5.2",
-    "ejs-locals": "^1.0.2",
+    "connect-flash": "0.1.1",
+    "cookie-parser": "1.4.3",
     "express": "^4.14.0",
+    "express-handlebars": "3.0.0",
+    "express-session": "1.14.2",
+    "express-validator": "2.21.0",
+    "image-size": "0.5.0",
+    "multer": "1.2.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "pg-promise": "5.3.5",
     "request": "^2.78.0"
   }
 }
